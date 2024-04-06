@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gallery {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#gallery figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gallery figure img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #ddd;
+}
+
+#gallery figure figcaption {
+    font-style: italic;
+    color: #666;
+}
+
+#gallery ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#gallery ul li {
+    margin: 5px;
+}
+
+#gallery ul li img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+#gallery ul li img:hover {
+    border-color: #333;
+}
